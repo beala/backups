@@ -26,7 +26,7 @@ fi
 KEEP_COUNT=2
 # How often to create a full backup. For example, setting this to
 # "1M" creates a full backup if the most recent full backup is older
-# than 1M. Otherwise, the backup is an incremental backup.
+# than 1 month. Otherwise, the backup is an incremental backup.
 LENGTH_BETWEEN_FULL=1M
 
 # S3 locations to back up to.
