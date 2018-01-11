@@ -31,6 +31,9 @@ The default settings:
 - All remote data is encrypted and signed
 - Stored to S3 with [infrequent access](https://aws.amazon.com/s3/storage-classes/) enabled, costing about a cent per gig per month.
 
+Also, a parting note: **Don't forget to backup your encryption keys to a _separate_ safe location.**
+I recommend both printing them out and storing a copy in your preferred cloud keychain (1Password, LastPass, whatever).
+
 # License
 
 Copyright 2018 Alex Beal
